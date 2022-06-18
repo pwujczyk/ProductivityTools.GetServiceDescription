@@ -12,7 +12,7 @@
 RootModule = 'ProductivityTools.GetServiceDescription.psm1'
 
 # Version number of this module.
-ModuleVersion = '0.0.2'
+ModuleVersion = '0.0.5'
 
 # ID used to uniquely identify this module
 GUID = 'c66c4692-ed60-4079-a452-7c97142b3db7'
@@ -27,7 +27,7 @@ CompanyName = 'ProductivityTools.tech'
 Description = 'Gets service description for service name'
 
 # Functions to export from this module
-FunctionsToExport = 'G Get-ServiceDescription'
+FunctionsToExport = 'Get-ServiceDescription'
 
 
 PrivateData = @{

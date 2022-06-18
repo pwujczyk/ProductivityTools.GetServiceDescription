@@ -1,9 +1,8 @@
-<#
-	My Function
-#>
 function Get-ServiceDescription {
 	[cmdletbinding()]
 	param(
+		[Parameter(Mandatory=$true)]
+		[String]
 		$name
 	)
 

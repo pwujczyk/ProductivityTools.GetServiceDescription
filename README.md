@@ -20,5 +20,11 @@ Module invokes simple command.
 ```
 Get-CimInstance  win32_service | ?{$_.Name -like $name} | select Description
 ```
+
+Module exposes one command
+```
+Get-ServiceDescription -name $servicename
+```
+
 <!--og-image-->
 ![](Images/2022-06-17-21-31-16.png)
