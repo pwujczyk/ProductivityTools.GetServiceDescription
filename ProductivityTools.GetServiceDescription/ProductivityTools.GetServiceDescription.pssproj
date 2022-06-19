@@ -29,7 +29,7 @@
   <ItemGroup>
     <Compile Include="ProductivityTools.GetServiceDescription.psd1" />
     <Compile Include="ProductivityTools.GetServiceDescription.psm1" />
-    <Compile Include="ProductivityTools.GetServiceDescription.tests.ps1" />
+    <Compile Include="Runner.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
